@@ -1,0 +1,88 @@
+
+/*
+  Max width before this PARTICULAR table gets nasty. This query will take effect for any screen smaller than 760px and also iPads specifically.
+  */
+  @media
+    only screen 
+    and (max-width: 760px), (min-device-width: 300px) 
+    and (max-device-width: 1024px)  {
+
+    /* Force table to not be like tables anymore */
+    table, thead, tbody, th, td, tr {
+      display: block;
+    }
+
+    thead tr {
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+    }
+
+    tr {
+      margin: 0 0 1rem 0;
+
+    }
+
+    td{
+      /* Behave  like a "row" */
+      border: none;
+      border-bottom: 1px solid #eee;
+      position: relative;
+      padding-left: 10%;
+      font-size: 155%;
+
+   }
+
+    td:before {
+      /* Now like a table header */
+      position: absolute;
+      /* Top/left values mimic padding */
+      top: 0;
+      
+      width: 45%;
+      padding-right: 10px;
+      white-space: nowrap;
+      font-size: 16px;
+
+
+    }
+
+    /*
+    Label the data
+    You could also use a data-* attribute and content for this. That way "bloats" the HTML, this way means you need to keep HTML and CSS in sync. Lea Verou has a clever way to handle with text-shadow.
+    *//**aparecen cuando se hace pequeña**/
+    td:nth-of-type(1):before { content: "Nombre del curso:"; background-color: #cfe2f3; text-align: left; }
+    td:nth-of-type(2):before { content: "Duración"; background-color: #cfe2f3; text-align: left; }
+    td:nth-of-type(3):before { content: "Inicia"; background-color: #cfe2f3; text-align: left;}
+    td:nth-of-type(4):before { content: "Ubicación"; background-color: #cfe2f3; text-align: left;}
+    td:nth-of-type(5):before { content: "Disponibilidad"; background-color: #cfe2f3; text-align: left;}
+    td:nth-of-type(6):before { content: "Ficha técnica"; background-color: #cfe2f3; text-align: left;}
+    td:nth-of-type(7):before { content: "Info del evento"; background-color: #cfe2f3; text-align: left;}
+  
+
+
+  }
+
+  .table-rwd th {
+    background: #cfe2f3;
+    color: black;
+    font-weight: normal;
+    text-align: right; 
+  }
+
+
+ @media
+    only screen 
+    and (max-width: 760px), (min-device-width: 768px) 
+    and (max-device-width: 1802px)  {
+
+    /* Force table to not be like tables anymore */
+
+th{
+
+color: black;
+background-color: #cfe2f3;
+}
+
+}
+

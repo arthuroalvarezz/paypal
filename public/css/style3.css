@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizelegibility;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 100%;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+
+.slider--teams .slider--teams__team {
+  position: relative;
+  overflow: hidden;
+}
+
+#list {
+  position: relative;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+#list li {
+  position: relative;
+  display: inline-block;
+  float: left;
+  text-align: center;
+}
+#list li figure {
+  cursor: pointer;
+  margin: 1em;
+  opacity: 0.5;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  transition: opacity 450ms ease-in-out, -webkit-transform 450ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  transition: transform 450ms cubic-bezier(0.445, 0.05, 0.55, 0.95), opacity 450ms ease-in-out;
+  transition: transform 450ms cubic-bezier(0.445, 0.05, 0.55, 0.95), opacity 450ms ease-in-out, -webkit-transform 450ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  -webkit-transform: scale(0.5) translateZ(0px);
+          transform: scale(0.5) translateZ(0px);
+}
+#list li figure:hover {
+  opacity: 0.8;
+  -webkit-transform: scale(0.6) translateZ(0px);
+          transform: scale(0.6) translateZ(0px);
+}
+#list li figure:active {
+  opacity: 1;
+  -webkit-transform: scale(0.7) translateZ(0px);
+          transform: scale(0.7) translateZ(0px);
+}
+#list li figure > div {
+  border-radius: 50px;
+  position: relative;
+  margin: 2rem auto;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  -webkit-transform: rotate(45deg) translateZ(0px);
+          transform: rotate(45deg) translateZ(0px);
+}
+
+
+#list li figure > div > div {
+
+ 
+background: url(../img/consultores.jpg) no-repeat;
+/**background: url(../img/consultores.jpg) no-repeat;          ../staticfiles/images/**/
+
+background-size: cover;
+background-position: 0px 0px;
+position: absolute;
+border-radius: 91px;
+top: 50%;
+left: 50%; 
+width: 190px;
+height: 190px;
+-webkit-transform: rotate(-45deg) translate(0%, -70%);
+        transform: rotate(-45deg) translate(0%, -70%);
+}
+
+#list li figure figcaption h2 {
+  color: #333;
+  font-size: 1.6rem;
+  font-weight: 800;
+}
+
+
+#list li figure figcaption p {
+  color: #666;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+#list li:nth-child(1) figure > div > div {
+  background-position: 0px 0px !important;/**jose**/
+}
+#list li:nth-child(2) figure > div > div {
+  background-position: 0px 12.6% !important;/**dulce**/
+}
+#list li:nth-child(3) figure > div > div { /**esme**/
+  background-position: 0px 25.1% !important;
+}
+#list li:nth-child(4) figure > div > div {/**paez**/
+  background-position: 0px 37.6% !important;
+}
+#list li:nth-child(5) figure > div > div {/**laura**/
+  background-position: 0px 50% !important;
+}
+#list li:nth-child(6) figure > div > div {/**gwen**/
+  background-position: 0px 62.6% !important;
+}
+#list li:nth-child(7) figure > div > div {
+  background-position: 0px 75.1% !important;/**javi**/
+}
+#list li:nth-child(8) figure > div > div {/**d heredia**/
+  background-position: 0px 87.6% !important;
+}
+#list li:nth-child(9) figure > div > div {/**elza**/
+  background-position: 0px 100.1% !important;
+}
+.active {
+  opacity: 1 !important;
+  -webkit-transform: scale(1) translateZ(0px) !important;
+          transform: scale(1) translateZ(0px) !important;
+}
+
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 20;
+}
+.active{
+    background: rgba(255,255,255,0.15)
+}

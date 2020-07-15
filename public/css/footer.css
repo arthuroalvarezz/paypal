@@ -1,0 +1,138 @@
+footer{
+  display: block;
+  background: #2b2b2b;
+  text-align: center;
+  color: #ddd;
+  padding: 50px 0 50px;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+::after, ::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+::selection {
+    color: #333;
+}
+::selection {
+    color: #333;
+}
+::selection {
+    color: #333;
+}
+::selection {
+    color: #333;
+}
+::selection {
+    color: #333;
+}
+::selection {
+    color: #333;
+}
+
+.container-footer-all {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+    position: relative;
+    box-sizing: border-box;
+
+}
+
+.container-body {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    box-sizing: border-box;
+}
+/* Columna 1 */
+.colum1 {
+    max-width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.colum1 h1 {
+    font-size: 22px;
+    margin-right: 50%;
+}
+
+.centrar{
+    margin-left: 190px;
+}
+
+
+.row2 {
+    margin-top: 20px;
+    display: flex;
+}
+
+.row2 img {
+    width: 36px;
+    height: 36px;
+    vertical-align: middle;
+    border: 0;
+}
+
+.row2 label {
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 150px;
+    color: aliceblue;
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: 700;
+    line-height: 20px;
+    font-size: 13px;
+}
+
+/* Columna 2 */
+
+.colum2 {
+    max-width: 400px;
+}
+
+.colum2 h1 {
+    font-size: 22px;
+    margin-right: 58%;
+}
+.row1 {
+    margin-top: 20px;
+    display: flex;
+}
+
+.row1 img {
+    width: 36px;
+    height: 36px;
+    vertical-align: middle;
+    border: 0;
+    max-width: 100%;
+}
+
+/* Columna 3 */
+
+.colum3 {
+    max-width: 400px;
+}
+
+.colum3 h1 {
+    font-size: 22px;
+}
+
+.container-footer {
+    width: 100%;
+    background: #101010;
+}
+
+.footer {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}

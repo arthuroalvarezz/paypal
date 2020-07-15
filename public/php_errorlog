@@ -1,0 +1,2 @@
+[13-Sep-2019 13:31:35 America/Chicago] PHP Parse error:  syntax error, unexpected '.', expecting '&' or variable (T_VARIABLE) in /home/innov833/public_html/pruebasinnovatium/innovatium_page/vendor/symfony/var-dumper/Resources/functions/dump.php on line 18
+[13-Sep-2019 13:31:59 America/Chicago] PHP Parse error:  syntax error, unexpected '.', expecting '&' or variable (T_VARIABLE) in /home/innov833/public_html/pruebasinnovatium/innovatium_page/vendor/symfony/var-dumper/Resources/functions/dump.php on line 18

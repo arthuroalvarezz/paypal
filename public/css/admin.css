@@ -1,0 +1,31 @@
+.containerImages img{
+    -webkit-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    transform: scale(0.7);
+   }
+  
+  .containerImages .btn:hover {
+    background-color: rgba(245, 107, 107, 0.609);
+  }
+
+  .myResena{
+    white-space: pre-line;
+    overflow-wrap: break-word;
+  }
+
+  .custom-file-control:lang(es)::before {
+    content: "Elegir";
+  }
+
+  .containerImages2 img {
+    display:block;
+    Margin:auto;
+    -webkit-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+}
+
+
+
+  

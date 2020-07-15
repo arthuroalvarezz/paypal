@@ -1,0 +1,4 @@
+[19-Oct-2019 16:42:21 CST6CDT] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/innov833/public_html/pruebasinnovatium/innovatium_page/public/contacto/enviar.php on line 13
+[19-Oct-2019 16:52:36 CST6CDT] PHP Parse error:  syntax error, unexpected '=' in /home/innov833/public_html/pruebasinnovatium/innovatium_page/public/contacto/enviar.php on line 10
+[21-Oct-2019 09:31:46 CST6CDT] PHP Parse error:  syntax error, unexpected end of file in /home/innov833/public_html/pruebasinnovatium/innovatium_page/public/contacto/enviar.php on line 51
+[21-Oct-2019 10:04:57 CST6CDT] PHP Parse error:  syntax error, unexpected '<' in /home/innov833/public_html/pruebasinnovatium/innovatium_page/public/contacto/enviar.php on line 45
